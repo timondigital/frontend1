@@ -1,0 +1,79 @@
+
+/*inicio a cero los margenes y padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+/*estilos header*/
+header{
+    background: #ddd;
+    text-align: center;
+}
+header img{    
+    margin-bottom: 20px;
+    height: 130px;
+}
+
+h1{
+    color: #1f497d;
+    font-size: 20px;
+    line-height: 40px;
+}
+h1, h2{
+    background: #bfbfbf;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-family: Cambria, Times, serif;
+}
+
+/*main*/
+main{
+    margin: 50px auto;
+    width: 45%;
+}
+
+h2{
+    color: #632423;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+ul{
+    margin: 20px;
+}
+
+dl{
+    margin: 20px 0;
+}
+
+ul, dl{
+    font-size: 12px;
+    line-height: 20px;
+}
+dd{
+    margin-left: 30px;
+}
+strong{
+    font-style: italic;
+}
+
+/*footer*/
+
+footer{
+    background: #1F497D;
+    color: #ddd;
+    height: 30px;
+    text-align: center;    
+}
+footer p{    
+    line-height: 28px;
+}
+
+.imgFooter{
+    height: 15px;
+}
