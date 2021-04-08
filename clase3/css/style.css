@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}  
+
+body{  
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+}
+
+header{ 
+    color: #fff;  
+    position: relative; 
+}
+/*imagen front*/
+.imagen_categoria{
+    margin-bottom: 50px;
+}
+
+/*imagen fondo header*/
+.imagen_fondo{
+ background-image: url(../img/lemon-pie.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;   
+    height: 343px;
+}
+.bloque_texto_encabezado{
+    position: absolute;
+    bottom: 0px;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;    
+    font-size: 18px;
+    font-style: italic;
+}
+
+h2 .subtitulo{ 
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+}
+
+.fas{
+    margin-right: 10px;
+}
