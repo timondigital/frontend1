@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    width: 600px;
+    margin: auto;
+}
+
+/* ---------- estilos header------------- */
+aside{
+    background: #1CD1B0;
+    height: 15px;
+    font-size: 12px; 
+    padding: 0;   
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+h1{
+    background: #00669F;
+    color: #FFFFFF;
+    height: 45px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 3px #a0a0a0;
+} 
+
+
+/* ------------ estilos body ------------ */
+section{
+    width: 100%;
+}
+
+article{
+    margin: auto;
+    background-color: #f3f3f3;
+    display: block;
+    width: 250px;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.encabezado-tarjeta{
+    margin-bottom: 35px;
+    position: relative;
+    background: blue;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.portada{ 
+    background-color: red;
+    border-radius: 30px 30px 0px 0px;
+    height: 150px; 
+    background-position: 75% center; 
+    background-size: 180% auto;
+    background-repeat: no-repeat;
+}
+
+.imagen-portada-batman{
+    background-image:url(../img/bg-batman.jpg);
+}
+.imagen-portada-wonder-woman{
+    background-image: url(../img/bg-wonderw.jpg);
+}
+.imagen-portada-superman{
+    background-image: url(../img/bg-superman.jpg);
+}
+
+.perfil{
+    height: 110px;
+    width: 110px;
+    margin:auto;
+    right: 70px;
+    top: 90px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;    
+    background-repeat: no-repeat;
+}
+
+.imagen-perfil-batman{
+    background-image: url(../img/batman.jpg);
+    background-size: 300% auto;
+    background-position: 55% top;    
+}
+.imagen-perfil-wonder-woman{
+    background-image: url(../img/wonderw.jpg);
+    background-size: 200% auto;
+    background-position: 55% top;    
+}
+.imagen-perfil-superman{
+    background-image: url(../img/superman.jpg);
+    background-size: 200% auto;
+    background-position: 55% top;    
+}
+
+.fa-heart{
+    position: absolute;
+    color: red;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+}
+
+/* -----------estilo cuerpo tarjeta-------- */
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+p{
+    font-size: 11px;
+    padding: 0 20px;
+    text-align: left;    
+}
+
+/* ------------estilo boton ------------ */
+.boton-ver{
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #00669F;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+}
+
+/* ---------- estilos footer ----------- */
+
+footer{
+    background-color: #00669F;
+    position: relative;        
+    height: 50px;
+    
+}
+footer h5{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+.github{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.github img{
+    height: 20px;
+}
