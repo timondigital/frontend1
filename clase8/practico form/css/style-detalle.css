@@ -9,10 +9,12 @@
 /* ------------ estilos card ------------ */
 section{
     width: 100%;
+    height: 90vh;
     min-width: 850px;
     text-align: center;    
     background-image: url(../img/bg-harley.png);
-    /* background-size: auto 100%; */
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 article{

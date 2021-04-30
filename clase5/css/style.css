@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 /*inicio a cero los margenes y padding*/
 *{
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-family: 'New Tegomin', serif;
 }
 
 /*estilos header*/
