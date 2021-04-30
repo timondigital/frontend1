@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C9S - Practico Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <aside>20% de descuento en todos los productos!</aside>
+        <img src="img/tienda.png" alt="icono tienda">
+        <h1>Nombre Tienda</h1>
+    </header>
+
+    <main>
+        <div class="login">
+            <h2 class="registo"> Registro</h2>
+            <form action="contacto.html">
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="email" placeholder="Correo Electronico">
+                <input type="password" placeholder="Contraseña">
+                <select name="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia" selected>Colombia</option>
+                    <option value="Brasil">Brasil</option>
+                </select>
+
+                <input class="btn registro reset" type="reset" value="Resetear">
+                <input class="btn registro" type="submit" value="Registrar">
+                <a href="index.html"><span class="enlace_registro">¿ya tenes una cuenta? </span>ingresá</a>
+            </form>
+            <a href="contacto.html" class="btn contacto">IR a CONTACTO </a>
+
+        </div>
+    </main>
+    <footer>
+        <p class="texto_footer">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

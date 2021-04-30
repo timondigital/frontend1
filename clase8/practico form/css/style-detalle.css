@@ -1,0 +1,111 @@
+/* ------- header -------*/
+.h1-detalle{
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    bottom: 0;
+}
+
+/* ------------ estilos card ------------ */
+section{
+    width: 100%;
+    min-width: 850px;
+    text-align: center;    
+    background-image: url(../img/bg-harley.png);
+    /* background-size: auto 100%; */
+}
+
+article{
+    margin: auto;
+    display: inline-block;
+    background: #fff;
+    margin: 100px 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px ;
+    margin-bottom: 50px;
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+}
+
+.encabezado-tarjeta{
+    margin-bottom: 35px;
+    position: relative;
+    background: blue;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.perfil{
+    height: 90px;
+    width: 90px;
+    margin: calc(50% - 45px);
+    margin-top: -55px;
+    position: absolute;
+    border-radius: 50%;    
+    background-repeat: no-repeat;
+}
+
+
+.imagen-perfil-harley{
+    background-image: url(../img/harley.png);
+    background-size: 100% auto;
+    background-position: 55% top;    
+}
+
+.fa-heart{
+    position: absolute;
+    color: red;
+    top: 25px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon.bate{    
+    background-image: url(../img/bate\ 1.png);
+}
+.icon.pistola{    
+    background-image: url(../img/gun\ 1.png);
+}
+.icon.bazooka{    
+    background-image: url(../img/bazooka\ 1.png);
+}
+
+/* -----------estilo cuerpo tarjeta-------- */
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2C0187;
+    text-decoration: underline;
+}
+p{
+    font-size: 11px;
+    padding: 0 20px;
+    text-align: left;    
+}
+
+/* ------------estilo boton ------------ */
+.boton-ver{
+    padding: 20px 25px;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #2C0187;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: -1px;
+    border-radius: 0 0 30px 30px;
+}
+
+
